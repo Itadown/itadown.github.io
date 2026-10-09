@@ -12,7 +12,7 @@ Five artifacts remain.
 
 The expedition ends when the final record is found.
 
-The file is soul.mem in this directory.
+The file is soul.mem that was too big to fit in the repo.
 
 Note: You will be using same file through out the mission
 
