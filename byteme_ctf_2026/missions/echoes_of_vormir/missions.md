@@ -49,7 +49,7 @@ volatility3 -f /path/soul.mem windows.info.Info
 Here is the flag : `OWASP{2026-10-08 05:07:43}`
 
 
-### Mem-2 : Soul Hunt
+### Mem-2 : Soul Hunt
 
 We launch `windows.pslist.PsList` to search for all the processus :
 ```bash
@@ -64,7 +64,7 @@ The flag is : `OWASP{SoulHunt_7F31}`
 
 
 
-### Mem-3 : The Painted Soul
+### Mem-3 : The Painted Soul
 
 I did Mem-4 and Mem-6 before while searching for this answer and I found out that there is Paint launched with Vormir.png and I have to extract the data from paint to convert it into an image and then find the flag.
 ```bash
@@ -132,11 +132,11 @@ Here is the flag from the picture (that is in this folder) :
 
 
 
-### Mem-6 : The Forgotten Note
+### Mem-6 : The Forgotten Note
 
 Earlier we saw a file \Users\nightwatch\Documents\Vormir\expedition.txt, we need to find the hex address and then download it :
 ```bash
-volaility3 -f /path/soul.mem windows.filescan.FileScan | grep -i "expedition.txt"
+volatility3 -f /path/soul.mem windows.filescan.FileScan | grep -i "expedition.txt"
 0xdb0f7a385e00.0\Users\nightwatch\Documents\Vormir\expedition.txt
 volatility3 -f /path/soul.mem -o /path/ windows.dumpfiles.DumpFiles --virtaddr 0xdb0f7a385e00
 ```

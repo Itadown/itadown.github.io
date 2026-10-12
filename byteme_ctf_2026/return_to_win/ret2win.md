@@ -28,7 +28,7 @@ The `hello()` function uses `gets(local_12)`, which is dangerously unsafe:
 - `gets()` does not check input size → if you send >10 bytes, it overwrites adjacent memory on the stack.
 - This is a classic stack-based buffer overflow.
 
-When hello() is called, the stack looks like this (growing downward):
+When `hello()` is called, the stack looks like this (growing downward):
 
 | Address (High → Low) | Content               | Size   |
 |----------------------|-----------------------|--------|
