@@ -31,12 +31,11 @@ The event aims to provide college students with practical exposure to cybersecur
 
 Participants will:
 
-    Solve challenges across different cybersecurity domains
-    Develop problem-solving and analytical skills
-    Gain practical, hands-on cybersecurity experience
-    Explore different areas of cybersecurity
-
-    Engage with the cybersecurity community
+* Solve challenges across different cybersecurity domains
+* Develop problem-solving and analytical skills
+* Gain practical, hands-on cybersecurity experience
+* Explore different areas of cybersecurity
+* Engage with the cybersecurity community
 
      
 
@@ -44,23 +43,23 @@ Participants will:
 
 The competition will feature challenges across multiple cybersecurity categories:
 
-    OSINT
-    Reverse Engineering
-    Steganography
-    Binary Exploitation
-    Forensics
-    Web Security
-    Cryptography
-    AI Security
-    Miscellaneous (MISC)
+* OSINT
+* Reverse Engineering
+* Steganography
+* Binary Exploitation
+* Forensics
+* Web Security
+* Cryptography
+* AI Security
+* Miscellaneous (MISC)
 
 Challenges will range from Easy to Expert, depending on the category.
 
  
 **Participation**
 
-    Target Audience: The event is open to international participants, including students, professionals, and cybersecurity enthusiasts from various technical backgrounds.
-    Participation: Participants can compete individually or as part of a team.
-    Mode: The competition will be conducted entirely online.
-    Platform: Participants will compete through the CTF7 platform.
-    Competition Format: Jeopardy-style CTF with points awarded for successfully submitted flags and a live scoreboard.
+* Target Audience: The event is open to international participants, including students, professionals, and cybersecurity enthusiasts from various technical backgrounds.
+* Participation: Participants can compete individually or as part of a team.
+* Mode: The competition will be conducted entirely online.
+* Platform: Participants will compete through the CTF7 platform.
+* Competition Format: Jeopardy-style CTF with points awarded for successfully submitted flags and a live scoreboard.
