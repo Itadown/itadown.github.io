@@ -46,12 +46,12 @@ We installed Volatility3 from GitHub and then first launched `windows.info.Info`
 ```bash
 volatility3 -f /path/soul.mem windows.info.Info
 ```
-Here is the flag : OWASP{2026-10-08 05:07:43}
+Here is the flag : `OWASP{2026-10-08 05:07:43}`
 
 
 ### Mem-2 : Soul Hunt
 
-We launch windows.pslist.PsList to search for all the processus :
+We launch `windows.pslist.PsList` to search for all the processus :
 ```bash
 volatility3 -f /path/soul.mem windows.pslist.PsList
 ...
@@ -60,7 +60,7 @@ volatility3 -f /path/soul.mem windows.pslist.PsList
 8348	2580	conhost.exe	0xdb0f7808b080	3	-	1	False	2026-10-08 04:48:01.000000 UTC	N/A	Disabled
 ...
 ```
-The flag is : OWASP{SoulHunt_7F31}
+The flag is : `OWASP{SoulHunt_7F31}`
 
 
 
@@ -76,7 +76,7 @@ And I did some settings, RGB 32-bits, big endian, 1920x1080 and found an hexa th
 ![pid.1024_part1.png](pid.1024_part1.png)
 
 And this was the first part of the flag that I found:
-OWASP{soulstone_paint_
+`OWASP{soulstone_paint_`
 
 I didn't found the rest of this part so I will see writeups.
 
@@ -112,13 +112,13 @@ Here we can see Vormir.png and Sacrifice.png.
 
 
 We need to see something so I tried to download the two pictures, first we need to retrieve the hexadecimal address :
-
+```bash
 volatility3 -f /path/soul.mem windows.filescan.FileScan | grep -i "Vormir.png"
 0xdb0f77683870.0\Users\nightwatch\Pictures\Vormir.png
 
 volatility3 -f /path/soul.mem windows.filescan.FileScan | grep -i "Sacrifice.png"
 0xdb0f7a3a6b00.0\Users\nightwatch\Pictures\Sacrifice.png
-
+```
 
 Then we try to download the picture Vormir.png that returns nothing and Sacrifice.png that returns a valid picture with the flag :
 ```bash
@@ -128,7 +128,7 @@ volatility3 -f /path/soul.mem -o /path/ windows.dumpfiles.DumpFiles --virtaddr 0
 ![Sacrifice.png picture](Sacrifice.png)
 
 Here is the flag from the picture (that is in this folder) :
-OWASP{soulstone_memory_84c2}
+`OWASP{soulstone_memory_84c2}`
 
 
 
@@ -146,4 +146,4 @@ Artifact reference:
 4f574153507b736f756c73746f6e655f6e6f74655f336339317d
 
 Just need to decode it from hex and :
-OWASP{soulstone_note_3c91}
+`OWASP{soulstone_note_3c91}`

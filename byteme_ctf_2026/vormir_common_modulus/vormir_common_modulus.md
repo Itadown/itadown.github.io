@@ -32,19 +32,19 @@ This attacks exploit a vulnerability in RSA when the same modulus (n) is used wi
 
 We can find the decrypted message with this equation :
 
-m = c1\*\*u + c2\*\*v
+`m = c1**u + c2**v`
 
 
 
 With u and v such that :
 
-e1\*u + e2\*v = 1
+`e1*u + e2*v = 1`
 
 
 
 This is the Bézout’s Identity, it states that for any two integers a and b with greatest common divisor d, there exist integers u and v such that:
 
-a\*u + b\*v = d
+`a*u + b*v = d`
 
 
 
@@ -66,12 +66,12 @@ def extended_euclidean(a, b):
 pgcd, u, v = extended_euclidean(65537, 65539)
 print(f"pgcd = {pgcd}, u = {u}, v = {v}")
 ```
-We found **u = 32769** and **v = -32768**
+We found `u = 32769` and `v = -32768`
 
 
 
-We now just need to decrypt with m = c1\*\*u + c2\*\*v :
-```
+We now just need to decrypt with `m = c1**u + c2**v` :
+```py
 from binascii import unhexlify
 
 n = 16380649768533394557837493376413306403300053927332145442950164332328030751564185489519565597585555867737606727528343
@@ -90,4 +90,4 @@ message = unhexlify(m_hex).decode('utf-8')
 print("The message is :", message)
 ```
 
-And we just found the flag : OWASP{v0rm1r_tw1st3d_rsa_l34ks_th3_s0ul}
+And we just found the flag : `OWASP{v0rm1r_tw1st3d_rsa_l34ks_th3_s0ul}`

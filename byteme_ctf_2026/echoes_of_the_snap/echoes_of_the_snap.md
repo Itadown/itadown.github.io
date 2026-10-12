@@ -28,4 +28,4 @@ stream 31 TXT chunks:
 ```
 
 If we copy the last line in Ghex, we retrieve the flag :
-OWASP{3ch03s_0f_th3_sn4p_r3m41n}
+`OWASP{3ch03s_0f_th3_sn4p_r3m41n}`
