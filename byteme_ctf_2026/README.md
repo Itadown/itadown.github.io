@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ByteMe CTF 2026
+title: ByteMe CTF \2026
 has_children: true
 nav_order: 3
 ---
