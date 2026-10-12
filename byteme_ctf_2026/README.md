@@ -7,6 +7,8 @@ nav_order: 2
 
 # ByteMe_CTF_2026
 
+A little CTF I did on Friday 9th of October 2026
+
 Event Details
 
     Event Title: ByteMe CTF 26
