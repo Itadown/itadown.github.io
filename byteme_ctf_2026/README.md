@@ -19,7 +19,7 @@ A little CTF I did on Friday 9th of October 2026
 * Platform: CTF7
 * Participation: Individual or Team
 * Eligibility: Open internationally to students, professionals, and cybersecurity enthusiasts
-* Discord Server: [discord.gg/9BpjC2TxeK](discord)
+* Discord Server: [https://discord.gg/9BpjC2TxeK](https://discord.gg/9BpjC2TxeK)
 
 * Website: [https://bytemectf.owasppccoe.in/](https://bytemectf.owasppccoe.in/)
 
