@@ -1,3 +1,10 @@
+---
+layout: default
+title: ByteMe CTF
+has_children: true
+nav_order: 2
+---
+
 # ByteMe_CTF_2026
 
 Event Details
