@@ -104,6 +104,8 @@ volatility3 -f /path/soul.mem windows.filescan.FileScan | grep -i "Sacrifice.png
 Then we try to download the picture Vormir.png that returns nothing and Sacrifice.png that returns a valid picture with the flag :
 volatility3 -f /path/soul.mem -o /path/ windows.dumpfiles.DumpFiles --virtaddr 0xdb0f7a3a6b00
 
+![Sacrifice.png picture](Sacrifice.png)
+
 Here is the flag from the picture (that is in this folder) :
 OWASP{soulstone_memory_84c2}
 
