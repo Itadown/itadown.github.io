@@ -1,3 +1,25 @@
+---
+layout: default
+title: House Of Water
+parent: ByteMe CTF
+category: pwn
+---
+
+# House Of Water
+
+## Binary Exploitation
+
+## Challenge Description
+
+The Soul Vault suffered metadata corruption during a recovery operation. Identify the valid recovered block and decode its contents.
+
+File Attachments :
+[chal](chal)
+[ld-linux-x86-64.so.2](ld-linux-x86-64.so.2)
+[libc.so.6](libc.so.6)
+
+## Exploit
+
 I opened the file in Ghidra, looked at the setup function to find out this :
 ```
 void setup(void)
@@ -27,10 +49,12 @@ void setup(void)
   return;
 }
 ```
-Wecan clearly see that a chunk of 0x80 is allocated in the memory at the index 0x0.
+We can clearly see that a chunk of 0x80 is allocated in the memory at the index 0x0.
 
 We just needed to connect with :
+```bash
 nc 145.239.142.129 1341
+```
 
 And do a malloc of 0x80 at the index 0 and then show at the index 0 with 0 offset a size of 0x80. We then need to convert the hex obtained (
 4f 57 41 53 50 7b 64 72 69 6e 6b 5f 66 72 30 6d 
