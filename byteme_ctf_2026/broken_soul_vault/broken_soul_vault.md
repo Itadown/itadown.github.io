@@ -5,7 +5,7 @@ parent: ByteMe CTF
 category: forensics
 ---
 
-#Broken Soul Vault
+# Broken Soul Vault
 
 ## Challenge Description
 
