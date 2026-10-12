@@ -7,6 +7,8 @@ category: forensics
 
 # Soul Memory
 
+## Category Forensics
+
 ## Challenge Description
 
 A memory dump from a Soul Vault process contains traces of a recovered fragment. Find the hidden information inside the process data.
