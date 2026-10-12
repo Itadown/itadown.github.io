@@ -11,16 +11,16 @@ A CTF I did From Saturday 17th of October at 09:00 UTC to Sunday 18th of October
 
 **Event Details**
 
-    Event Title: Securinets CTF Quals 2026
-    Organized By: Securinets is Tunisia's first cybersecurity association, founded in 2003, and this qualifier is its flagship competition: teams play online from anywhere, and the best of them are invited to fight for the title on our campus at INSAT.
-    Date: 17th October to 18th October 2026
-    Time: 09:00 AM (17th) - 21:00 PM (18th) UTC
-    Mode: Online
-    Participation: Individual or Team
-    Eligibility: Open to everyone. Students, professionals and first-timers all play the same board.
-    Discord Server: discord.gg/Xqj6WnNmbQ
+* Event Title: Securinets CTF Quals 2026
+* Organized By: Securinets is Tunisia's first cybersecurity association, founded in 2003, and this qualifier is its flagship competition: teams play online from anywhere, and the best of them are invited to fight for the title on our campus at INSAT.
+* Date: 17th October to 18th October 2026
+* Time: 09:00 AM (17th) - 21:00 PM (18th) UTC
+* Mode: Online
+* Participation: Individual or Team
+* Eligibility: Open to everyone. Students, professionals and first-timers all play the same board.
+* Discord Server: [discord.gg/Xqj6WnNmbQ](discord)
 
-    Website: https://ctf.securinets.tn/
+* Website: [https://ctf.securinets.tn/](https://ctf.securinets.tn/)
 
 
 
