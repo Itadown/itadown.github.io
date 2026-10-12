@@ -11,17 +11,17 @@ A little CTF I did on Friday 9th of October 2026
 
 **Event Details**
 
-    Event Title: ByteMe CTF 26
-    Organized By: OWASP Student Chapter, Department of Computer Engineering, Pimpri Chinchwad College of Engineering (PCCOE), Pune
-    Date: 9th October 2026
-    Time: 10:00 AM – 6:00 PM IST
-    Mode: Online
-    Platform: CTF7
-    Participation: Individual or Team
-    Eligibility: Open internationally to students, professionals, and cybersecurity enthusiasts
-    Discord Server: discord.gg/9BpjC2TxeK
+* Event Title: ByteMe CTF 26
+* Organized By: OWASP Student Chapter, Department of Computer Engineering, Pimpri Chinchwad College of Engineering (PCCOE), Pune
+* Date: 9th October 2026
+* Time: 10:00 AM – 6:00 PM IST
+* Mode: Online
+* Platform: CTF7
+* Participation: Individual or Team
+* Eligibility: Open internationally to students, professionals, and cybersecurity enthusiasts
+* Discord Server: [discord.gg/9BpjC2TxeK](discord)
 
-    Website: https://bytemectf.owasppccoe.in/
+* Website: [https://bytemectf.owasppccoe.in/](https://bytemectf.owasppccoe.in/)
 
      
 

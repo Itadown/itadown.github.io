@@ -18,7 +18,7 @@ A CTF I did From Saturday 17th of October at 09:00 UTC to Sunday 18th of October
 * Mode: Online
 * Participation: Individual or Team
 * Eligibility: Open to everyone. Students, professionals and first-timers all play the same board.
-* Discord Server: [discord.gg/Xqj6WnNmbQ](discord)
+* Discord Server: [https://discord.gg/Xqj6WnNmbQ](discord)
 
 * Website: [https://ctf.securinets.tn/](https://ctf.securinets.tn/)
 
