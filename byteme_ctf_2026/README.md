@@ -9,7 +9,7 @@ nav_order: 2
 
 A little CTF I did on Friday 9th of October 2026
 
-Event Details
+**Event Details**
 
     Event Title: ByteMe CTF 26
     Organized By: OWASP Student Chapter, Department of Computer Engineering, Pimpri Chinchwad College of Engineering (PCCOE), Pune
@@ -25,7 +25,7 @@ Event Details
 
      
 
-Objective
+**Objective**
 
 The event aims to provide college students with practical exposure to cybersecurity through a hands-on Jeopardy-style Capture The Flag (CTF) competition.
 
@@ -40,7 +40,7 @@ Participants will:
 
      
 
-CTF Domains
+**CTF Domains**
 
 The competition will feature challenges across multiple cybersecurity categories:
 
@@ -57,7 +57,7 @@ The competition will feature challenges across multiple cybersecurity categories
 Challenges will range from Easy to Expert, depending on the category.
 
  
-Participation
+**Participation**
 
     Target Audience: The event is open to international participants, including students, professionals, and cybersecurity enthusiasts from various technical backgrounds.
     Participation: Participants can compete individually or as part of a team.
