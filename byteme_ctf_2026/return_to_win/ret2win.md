@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Return to Win
+title: Return to Win 2026
 parent: ByteMe CTF
 category: pwn
 ---

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Vormir Common Modulus
-parent: ByteMe CTF
+parent: ByteMe CTF 2026
 category: cryptography
 ---
 

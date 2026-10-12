@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Echoes of Vormir
-parent: ByteMe CTF
+parent: ByteMe CTF 2026
 category: forensics
 ---
 

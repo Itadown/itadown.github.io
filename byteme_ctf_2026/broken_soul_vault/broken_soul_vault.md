@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Broken Soul Vault
-parent: ByteMe CTF
+parent: ByteMe CTF 2026
 category: forensics
 ---
 
