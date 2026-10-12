@@ -1,4 +1,13 @@
+---
+layout: default
+title: Broken Soul Vault
+parent: ByteMe CTF
+category: forensics
+---
+
 # Echoes of Vormir
+
+## Challenge Description
 
 Vormir remembers.
 
@@ -12,17 +21,24 @@ Five artifacts remain.
 
 The expedition ends when the final record is found.
 
-The file is soul.mem that was too big to fit in the repo.
+ 
+
+File: [soul.mem](soul.mem)
+
+ 
 
 Note: You will be using same file through out the mission
 
 Flag format: OWASP{...}
 
-
 This is a group of missions, from Mem-1 to Mem-6, I didn't succeed in all of it but there is some of them here.
 
 
-## Mem-1 : When It Happened
+
+## Exploit
+
+
+### Mem-1 : When It Happened
 
 We installed Volatility3 from GitHub and then first launched `windows.info.Info` to see the date and if it was really a windows ram dump :
 ```bash
@@ -32,7 +48,7 @@ Here is the flag : OWASP{2026-10-08 05:07:43}
 
 
 
-Mem-2 : Soul Hunt
+### Mem-2 : Soul Hunt
 
 We launch windows.pslist.PsList to search for all the processus :
 ```bash
@@ -47,7 +63,7 @@ The flag is : OWASP{SoulHunt_7F31}
 
 
 
-Mem-3 : The Painted Soul
+### Mem-3 : The Painted Soul
 
 I did Mem-4 and Mem-6 before while searching for this answer and I found out that there is Paint launched with Vormir.png and I have to extract the data from paint to convert it into an image and then find the flag.
 
@@ -55,6 +71,7 @@ volatility3 -f /home/itadown/Documents/cyberSecurity/byteme/missions/soul.mem -o
 
 And I did some settings, RGB 32-bits, big endian, 1920x1080 and found an hexa that was reversed to find out : 
 4f574153507b736 f756c73746f6e65 5f7061696e745f3 736e655f3
+[pid.1024_part1.png](pid.1024_part1.png)
 
 And this was the first part of the flag that I found:
 OWASP{soulstone_paint_
@@ -104,14 +121,14 @@ volatility3 -f /path/soul.mem windows.filescan.FileScan | grep -i "Sacrifice.png
 Then we try to download the picture Vormir.png that returns nothing and Sacrifice.png that returns a valid picture with the flag :
 volatility3 -f /path/soul.mem -o /path/ windows.dumpfiles.DumpFiles --virtaddr 0xdb0f7a3a6b00
 
-![Sacrifice.png picture](Sacrifice.png)
+[Sacrifice.png picture](Sacrifice.png)
 
 Here is the flag from the picture (that is in this folder) :
 OWASP{soulstone_memory_84c2}
 
 
 
-Mem-6 : The Forgotten Note
+### Mem-6 : The Forgotten Note
 
 Earlier we saw a file \Users\nightwatch\Documents\Vormir\expedition.txt, we need to find the hex address and then download it :
 
@@ -120,7 +137,7 @@ volaility3 -f /path/soul.mem windows.filescan.FileScan | grep -i "expedition.txt
 volatility3 -f /path/soul.mem -o /path/ windows.dumpfiles.DumpFiles --virtaddr 0xdb0f7a385e00
 
 
-Then we have a file containing this :
+Then we have a file ([expedtion.txt](expedition.txt)) containing this :
 Artifact reference:
 4f574153507b736f756c73746f6e655f6e6f74655f336339317d
 

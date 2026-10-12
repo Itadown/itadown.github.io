@@ -1,3 +1,21 @@
+---
+layout: default
+title: Vormir Common Modulus
+parent: ByteMe CTF
+category: cryptography
+---
+
+# Vormir Common Modulus
+
+## Challenge Description
+
+Two custodians encrypted the same Soul Vault secret using RSA with a shared modulus but different public exponents. Recover the plaintext.
+
+File Attachments :
+[params.txt](params.txt)
+
+## Exploit
+
 We had :
 n = 16380649768533394557837493376413306403300053927332145442950164332328030751564185489519565597585555867737606727528343
 e1 = 65537

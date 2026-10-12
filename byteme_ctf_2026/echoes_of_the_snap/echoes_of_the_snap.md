@@ -1,3 +1,22 @@
+---
+layout: default
+title: Echoes Of The Snap
+parent: ByteMe CTF
+category: forensics
+---
+
+# Echoes Of The Snap
+
+## Challenge Description
+
+A network capture contains several streams, but one contains fragmented DNS TXT data carrying a hidden message.
+
+File Attachments :
+[capture.txt](capture.txt)
+
+
+## Exploit
+
 This was in the file :
 ```
 NETWORK CAPTURE SUMMARY
