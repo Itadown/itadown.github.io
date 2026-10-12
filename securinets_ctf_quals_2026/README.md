@@ -2,10 +2,10 @@
 layout: default
 title: Securinets CTF Quals 2026
 has_children: true
-nav_order: 2
+nav_order: 4
 ---
 
-# Securinets_CTF_Quals_2026
+# Securinets CTF Quals 2026
 
 A CTF I did From Saturday 17th of October at 09:00 UTC to Sunday 18th of October at 21:00 UTC in 2026
 

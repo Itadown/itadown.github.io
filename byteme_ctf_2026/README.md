@@ -1,11 +1,11 @@
 ---
 layout: default
-title: ByteMe CTF
+title: ByteMe CTF 2026
 has_children: true
-nav_order: 2
+nav_order: 3
 ---
 
-# ByteMe_CTF_2026
+# ByteMe CTF 2026
 
 A little CTF I did on Friday 9th of October 2026
 
