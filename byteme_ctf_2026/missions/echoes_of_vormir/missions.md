@@ -73,7 +73,7 @@ volatility3 -f /home/itadown/Documents/cyberSecurity/byteme/missions/soul.mem -o
 
 And I did some settings, RGB 32-bits, big endian, 1920x1080 and found an hexa that was reversed to find out : 
 4f574153507b736 f756c73746f6e65 5f7061696e745f3 736e655f3
-[pid.1024_part1.png](pid.1024_part1.png)
+![pid.1024_part1.png](pid.1024_part1.png)
 
 And this was the first part of the flag that I found:
 OWASP{soulstone_paint_
@@ -123,7 +123,7 @@ volatility3 -f /path/soul.mem windows.filescan.FileScan | grep -i "Sacrifice.png
 Then we try to download the picture Vormir.png that returns nothing and Sacrifice.png that returns a valid picture with the flag :
 volatility3 -f /path/soul.mem -o /path/ windows.dumpfiles.DumpFiles --virtaddr 0xdb0f7a3a6b00
 
-[Sacrifice.png picture](Sacrifice.png)
+![Sacrifice.png picture](Sacrifice.png)
 
 Here is the flag from the picture (that is in this folder) :
 OWASP{soulstone_memory_84c2}
