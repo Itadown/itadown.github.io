@@ -17,6 +17,7 @@ File Attachments :
 ## Exploit
 
 We had :
+
 n = 16380649768533394557837493376413306403300053927332145442950164332328030751564185489519565597585555867737606727528343
 e1 = 65537
 e2 = 65539
@@ -63,7 +64,7 @@ def extended_euclidean(a, b):
 pgcd, u, v = extended_euclidean(65537, 65539)
 print(f"pgcd = {pgcd}, u = {u}, v = {v}")
 ```
-We found u = 32769 and v = -32768
+We found **u = 32769** and **v = -32768**
 
 
 
