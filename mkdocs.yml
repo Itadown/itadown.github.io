@@ -23,5 +23,4 @@ theme:
 
 plugins:
   - search
-  - tags:
-      custom_dir: docs/
+  - tags
