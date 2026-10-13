@@ -22,7 +22,6 @@ theme:
         name: Dark mode
   icon:
     tag:
-      default: fontawesome/solid/computer
       Reverse Engineering: simple/assemblyscript
       Binary Exploitation: fontawesome/solid/square-binary
       Forensics: simple/searxng
@@ -33,7 +32,7 @@ theme:
       Steganography: 
       OSINT: material/map
       AI: fontawesome/brands/openai
-
+      Hardware: simple/opensourcehardware
 
 plugins:
   - search
@@ -51,4 +50,5 @@ extra:
     Steganography: 07
     OSINT: 08
     AI: 09
+    Hardware: 10
 
