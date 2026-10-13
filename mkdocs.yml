@@ -23,4 +23,4 @@ theme:
 plugins:
   - search
   - tags:
-      tags_file: categories.md
+      custom_dir: docs/
