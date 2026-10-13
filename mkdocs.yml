@@ -20,7 +20,35 @@ theme:
       toggle:
         icon: material/brightness-7
         name: Dark mode
+  icon:
+    tag:
+      default: fontawesome/solid/computer
+      Reverse Engineering: simple/assemblyscript
+      Binary Exploitation: fontawesome/solid/square-binary
+      Forensics: simple/searxng
+      Cryptography: material/math-integral
+      Mobile: fontawesome/solid/mobile-phone
+      Web: material/firefox
+      Network: material/web
+      Steganography: 
+      OSINT: material/map
+      AI: fontawesome/brands/openai
+
 
 plugins:
   - search
   - tags
+
+extra:
+  tags:
+    Reverse Engineering: 00
+    Binary Exploitation: 01
+    Forensics: 02
+    Cryptography: 03
+    Mobile: 04
+    Web: 05
+    Network: 06
+    Steganography: 07
+    OSINT: 08
+    AI: 09
+
