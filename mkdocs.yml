@@ -25,11 +25,3 @@ plugins:
   - search
   - tags:
       custom_dir: docs/
-
-nav:
-  - Accueil: index.md
-  - CTF Categories: categories.md
-  - My CTFs:
-      - ByteMe CTF 2026: byteme_ctf_2026/
-      - Root-Me Pro X DGSE CTF 2025: root-me-pro_x_dgse_ctf_2025/
-      - Securinets CTF Quals 2026: securinets_ctf_quals_2026/
