@@ -6,5 +6,6 @@ title: Challenges Categories
 
 Here you can find every challenge I've done sorted by categories.
 
-[TAGS]
+
+<!-- material/tags -->
 
