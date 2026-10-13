@@ -1,8 +1,7 @@
 ---
-layout: default
 title: Soul Memory
-parent: ByteMe CTF 2026
-category: forensics
+tags:
+    - Forensics
 ---
 
 # Soul Memory

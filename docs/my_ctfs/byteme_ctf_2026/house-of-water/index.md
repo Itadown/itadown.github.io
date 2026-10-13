@@ -1,8 +1,7 @@
 ---
-layout: default
 title: House Of Water
-parent: ByteMe CTF 2026
-category: pwn
+tags:
+    - Binary Exploitation
 ---
 
 # House Of Water

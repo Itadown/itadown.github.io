@@ -1,8 +1,7 @@
 ---
-layout: default
 title: Soul's Weakness
-parent: ByteMe CTF 2026
-category: pwn
+tags:
+    - Binary Exploitation
 ---
 
 # Soul's Weakness

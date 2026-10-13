@@ -1,8 +1,7 @@
 ---
-layout: default
 title: Echoes of Vormir
-parent: ByteMe CTF 2026
-category: forensics
+tags:
+    - Forensics
 ---
 
 # Echoes of Vormir

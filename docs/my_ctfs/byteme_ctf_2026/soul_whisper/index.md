@@ -1,8 +1,7 @@
 ---
-layout: default
 title: Soul's Whisper
-parent: ByteMe CTF 2026
-category: reverse
+tags:
+    - Reverse Engineering
 ---
 
 # Soul's Whisper
