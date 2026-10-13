@@ -1,8 +1,5 @@
 ---
-layout: default
 title: Securinets CTF Quals 2026
-has_children: true
-nav_order: 4
 ---
 
 # Securinets CTF Quals 2026

@@ -1,8 +1,5 @@
 ---
-layout: default
 title: Root-Me Pro X DGSE CTF 2025
-has_children: true
-nav_order: 2
 ---
 
 # Root-Me Pro X DGSE CTF 2025
