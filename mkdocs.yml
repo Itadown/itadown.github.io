@@ -22,9 +22,8 @@ theme:
         name: Dark mode
   icon:
     tag:
-      default: fontawesome/solid/computer
       00: simple/assemblyscript
-      "Binary Exploitation": fontawesome/solid/square-binary
+      "01": fontawesome/solid/square-binary
       "Forensics": simple/searxng
       "Cryptography": material/math-integral
       "Mobile": fontawesome/solid/mobile-phone
