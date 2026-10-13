@@ -1,5 +1,5 @@
 ---
-title: My CTFs 
+nav_title: My CTFs 
 ---
 
 # My CTFs
