@@ -1,7 +1,5 @@
 ---
-layout: default
-title: Test
-nav_order: 2
+title: My CTFs 
 ---
 
 # My CTFs
