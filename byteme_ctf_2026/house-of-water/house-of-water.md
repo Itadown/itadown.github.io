@@ -7,7 +7,7 @@ category: pwn
 
 # House Of Water
 
-## Binary Exploitation
+**Binary Exploitation**
 
 ## Challenge Description
 

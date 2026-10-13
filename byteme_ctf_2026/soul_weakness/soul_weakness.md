@@ -7,14 +7,14 @@ category: pwn
 
 # Soul's Weakness
 
-## Category Binary Exploitation
+**Category Binary Exploitation**
 
 ## Challenge Description
 
 Thanos created an impenetrable vault to guard the legendary Soul Stone... or so he thought.
 
-File Attachments :
-[soul](soul)
+**File Attachments :**
+* [soul](soul)
 
 ## Exploit
 

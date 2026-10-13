@@ -7,15 +7,15 @@ category: forensics
 
 # Broken Soul Vault
 
-## Category Forensics
+**Category Forensics**
 
 ## Challenge Description
 
 The Soul Vault suffered metadata corruption during a recovery operation. Identify the valid recovered block and decode its contents.
 
-File Attachments :
-[metadata.bin.txt](metadata.bin.txt)
-[vault.log](vault.log)
+**File Attachments :**
+* [metadata.bin.txt](metadata.bin.txt)
+* [vault.log](vault.log)
 
 
 ## Exploit

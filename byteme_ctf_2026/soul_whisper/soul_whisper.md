@@ -7,14 +7,14 @@ category: reverse
 
 # Soul's Whisper
 
-## Category Reverse Engineering
+**Category Reverse Engineering**
 
 ## Challenge Description
 
 The Soul Stone has locked away a secret, but the stone only recognizes the right soul. Analyze the given executable, uncover how it validates the input, and retrieve the hidden flag.
 
-File Attachments :
-[soul_whisper](soul_whisper)
+**File Attachments :**
+* [soul_whisper](soul_whisper)
 
 ## Exploit
 

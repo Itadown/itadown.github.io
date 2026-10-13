@@ -7,14 +7,14 @@ category: forensics
 
 # Echoes Of The Snap
 
-## Category Forensics
+**Category Forensics**
 
 ## Challenge Description
 
 A network capture contains several streams, but one contains fragmented DNS TXT data carrying a hidden message.
 
-File Attachments :
-[capture.txt](capture.txt)
+**File Attachments :**
+* [capture.txt](capture.txt)
 
 
 ## Exploit
