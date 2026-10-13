@@ -22,17 +22,18 @@ theme:
         name: Dark mode
   icon:
     tag:
-      Reverse Engineering: simple/assemblyscript
-      Binary Exploitation: fontawesome/solid/square-binary
-      Forensics: simple/searxng
-      Cryptography: material/math-integral
-      Mobile: fontawesome/solid/mobile-phone
-      Web: material/firefox
-      Network: material/web
-      Steganography: 
-      OSINT: material/map
-      AI: fontawesome/brands/openai
-      Hardware: simple/opensourcehardware
+      default: fontawesome/solid/computer
+      00: simple/assemblyscript
+      "Binary Exploitation": fontawesome/solid/square-binary
+      "Forensics": simple/searxng
+      "Cryptography": material/math-integral
+      "Mobile": fontawesome/solid/mobile-phone
+      "Web": material/firefox
+      "Network": material/web
+      "Steganography": 
+      "OSINT": material/map
+      "AI": fontawesome/brands/openai
+      "Hardware": simple/opensourcehardware
 
 plugins:
   - search
