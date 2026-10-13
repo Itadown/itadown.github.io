@@ -13,6 +13,7 @@ tags:
 The Soul Vault suffered metadata corruption during a recovery operation. Identify the valid recovered block and decode its contents.
 
 **File Attachments :**
+
 * [chal](chal)
 * [ld-linux-x86-64.so.2](ld-linux-x86-64.so.2)
 * [libc.so.6](libc.so.6)

@@ -13,6 +13,7 @@ tags:
 Two custodians encrypted the same Soul Vault secret using RSA with a shared modulus but different public exponents. Recover the plaintext.
 
 **File Attachments :**
+
 * [params.txt](params.txt)
 
 ## Exploit
