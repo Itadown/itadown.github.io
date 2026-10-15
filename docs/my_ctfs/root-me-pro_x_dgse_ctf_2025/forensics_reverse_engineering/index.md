@@ -1,5 +1,5 @@
 ---
-title: Mission 3: Forensics, Reverse Engineering
+title: Mission 3 - Forensics, Reverse Engineering
 tags: 
     - Forensics
     - Reverse Engineering
@@ -19,6 +19,7 @@ The Quantumcore organization experienced a compromise following an employee down
 During initial access, standard authentication failed. Access was recovered by booting into single-user mode via GRUB and launching an unauthenticated root shell.
 
 ### User Account & Log Analysis
+
 * **`johndoe`**: Primary user account with sudo privileges. Its `.bash_history` file was wiped prior to malware execution, with a last modification timestamp recorded on **March 25 at 04:51**.
 * **`tempuser`**: Secondary account created on **March 25 at 09:04**, indicating potential attacker activity around this timeframe.
 
@@ -82,6 +83,7 @@ targets
 ```
 
 **Extracted Credentials & Keying Material:**
+
 * **Encryption Mode:** `MODE_CBC`
 * **AES Key** (`__k`)**:** `e8f93d68b1c2d4e9f7a36b5c8d0f1e2a`
 * **Initialization Vector** (`__v`)**:** `1f2d3c4b5a69788766554433221100ff`
@@ -99,6 +101,7 @@ uncompyle6 sys.pyc > src.py
 ### Decompiled Code Logic
 
 Analyzing [src.py](src.py) confirmed that:
+
 1. Anti-VM and anti-AV checks are performed prior to execution.
 2. Sensitive targets (such as `/root/.secret` and SSH keys) are targeted.
 3. Data is encrypted using **AES-128-CBC** with the extracted key and IV.

@@ -1,5 +1,5 @@
 ---
-title: Mission 2: SOC Analysis
+title: Mission 2 - SOC Analysis
 tags:
   - SOC
   - Forensics
