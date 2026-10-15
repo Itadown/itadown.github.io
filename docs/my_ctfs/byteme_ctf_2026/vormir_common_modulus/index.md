@@ -6,8 +6,6 @@ tags:
 
 # Vormir Common Modulus
 
-**Category Cryptography**
-
 ## Challenge Description
 
 Two custodians encrypted the same Soul Vault secret using RSA with a shared modulus but different public exponents. Recover the plaintext.
@@ -15,6 +13,8 @@ Two custodians encrypted the same Soul Vault secret using RSA with a shared modu
 **File Attachments :**
 
 * [params.txt](params.txt)
+
+---
 
 ## Exploit
 

@@ -6,8 +6,6 @@ tags:
 
 # House Of Water
 
-**Binary Exploitation**
-
 ## Challenge Description
 
 The Soul Vault suffered metadata corruption during a recovery operation. Identify the valid recovered block and decode its contents.
@@ -17,6 +15,8 @@ The Soul Vault suffered metadata corruption during a recovery operation. Identif
 * [chal](chal)
 * [ld-linux-x86-64.so.2](ld-linux-x86-64.so.2)
 * [libc.so.6](libc.so.6)
+
+---
 
 ## Exploit
 

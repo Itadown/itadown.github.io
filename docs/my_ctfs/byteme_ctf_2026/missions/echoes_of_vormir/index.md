@@ -6,8 +6,6 @@ tags:
 
 # Echoes of Vormir
 
-**Category Forensics**
-
 ## Challenges Description
 
 Vormir remembers.
@@ -36,7 +34,7 @@ Flag format: OWASP{...}
 
 This is a group of missions, from Mem-1 to Mem-6, I didn't succeed in all of it but there is some of them here.
 
-
+---
 
 ## Exploit
 
@@ -49,6 +47,7 @@ volatility3 -f /path/soul.mem windows.info.Info
 ```
 Here is the flag : `OWASP{2026-10-08 05:07:43}`
 
+---
 
 ### Mem-2 : Soul Hunt
 
@@ -63,7 +62,7 @@ volatility3 -f /path/soul.mem windows.pslist.PsList
 ```
 The flag is : `OWASP{SoulHunt_7F31}`
 
-
+---
 
 ### Mem-3 : The Painted Soul
 
@@ -81,7 +80,7 @@ And this was the first part of the flag that I found:
 
 I didn't found the rest of this part so I will see writeups.
 
-
+---
 
 Now we need to see if here is other related files :
 ```bash
@@ -131,7 +130,7 @@ volatility3 -f /path/soul.mem -o /path/ windows.dumpfiles.DumpFiles --virtaddr 0
 Here is the flag from the picture (that is in this folder) :
 `OWASP{soulstone_memory_84c2}`
 
-
+---
 
 ### Mem-6 : The Forgotten Note
 

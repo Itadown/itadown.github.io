@@ -6,8 +6,6 @@ tags:
 
 # Soul's Weakness
 
-**Category Binary Exploitation**
-
 ## Challenge Description
 
 Thanos created an impenetrable vault to guard the legendary Soul Stone... or so he thought.
@@ -15,6 +13,8 @@ Thanos created an impenetrable vault to guard the legendary Soul Stone... or so 
 **File Attachments :**
 
 * [soul](soul)
+
+---
 
 ## Exploit
 

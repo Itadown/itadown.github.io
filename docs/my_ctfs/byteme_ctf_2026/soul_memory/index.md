@@ -6,8 +6,6 @@ tags:
 
 # Soul Memory
 
-**Category Forensics**
-
 ## Challenge Description
 
 A memory dump from a Soul Vault process contains traces of a recovered fragment. Find the hidden information inside the process data.
@@ -16,6 +14,7 @@ A memory dump from a Soul Vault process contains traces of a recovered fragment.
 
 * [memory_dump.txt](memory_dump.txt)
 
+---
 
 ## Exploit
 

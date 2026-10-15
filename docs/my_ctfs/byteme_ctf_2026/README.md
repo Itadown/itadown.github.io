@@ -20,7 +20,7 @@ A little CTF I did on Friday 9th of October 2026
 
 * Website: [https://bytemectf.owasppccoe.in/](https://bytemectf.owasppccoe.in/)
 
-     
+---     
 
 **Objective**
 
@@ -34,7 +34,7 @@ Participants will:
 * Explore different areas of cybersecurity
 * Engage with the cybersecurity community
 
-     
+---  
 
 **CTF Domains**
 
@@ -52,6 +52,7 @@ The competition will feature challenges across multiple cybersecurity categories
 
 Challenges will range from Easy to Expert, depending on the category.
 
+---
  
 **Participation**
 
