@@ -26,19 +26,19 @@ Toulouse, France
 
 ## Technical Expertise
 
-=== "Offensive Security & CTFs"
+"Offensive Security & CTFs"
     * **Web Penetration Testing:** OWASP Top 10 exploitation, Burp Suite, OWASP ZAP, XXE, SQLi, XSS, SSRF.
     * **Infrastructure & Active Directory:** Network mapping with Nmap, privilege escalation (Linux & Windows), AD enumeration and attack vectors.
     * **Reverse Engineering & Binary Exploitation:** Static and dynamic analysis (x86 / x64 / ARM) using Ghidra and GDB, basic buffer overflow exploitation.
     * **CTF Competitions:** Active participant in **404CTF**, **Hackfinity**, **DGSE x Root-Me**, **ByteMe CTF** across Web, Reverse, Pwn, Crypto, RAM Forensics, and SOC challenges.
 
-=== "Infrastructure, Systems & DevOps"
+"Infrastructure, Systems & DevOps"
     * **System Administration:** Advanced Linux, Active Directory management, PowerShell, Incus containerization.
     * **Virtualization & Cloud:** Proxmox VE, OPNsense firewall configuration, rootless Podman containers.
     * **Network Engineering:** VLAN segmentation, Alpine Linux routing, Wi-Fi AP setup, WireGuard VPN, Nftables filtering, BGPv4, OSPF.
     * **DevOps & Automation:** Version control with Git/GitHub/GitLab, Bash scripting, automated backup workflows.
 
-=== "Forensics & Incident Response"
+"Forensics & Incident Response"
     * **Network Analysis:** Deep packet inspection and traffic investigation using Wireshark and `tshark`.
     * **Log & Audit Analysis:** System audit logging (`auditd`), Web server access logs analysis, intrusion tracking.
     * **RAM Analysis:** Memory extraction and memory forensics fundamentals.
