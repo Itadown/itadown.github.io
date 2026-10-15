@@ -1,5 +1,5 @@
 ---
-title: Mission 3: Forensics, Reverse Engineering
+title: Mission 3 - Forensics, Reverse Engineering
 tags: 
     - Forensics
     - Reverse Engineering
