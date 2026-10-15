@@ -17,7 +17,7 @@ The allied organization **Nuclear Punk** suffered a security breach. The objecti
 
 The flag for this challenge requires aggregating four specific artifacts discovered during the investigation:
 
-RM\{1st\_CWE : 2nd\_CWE : Remote\_Server\_IP : Persistence\_File\_Path\}
+RM\{`1st_CWE` : `2nd_CWE` : `Remote_Server_IP` : `Persistence_File_Path`}
 
 ---
 
