@@ -27,6 +27,7 @@ Before attempting any exploit, it is crucial to determine whether the operator i
 The intended resolution relies on exploiting how the chatbot validates payment proof.
 
 When observing public blockchain explorers (such as `blockchain.com`), Bitcoin address tracking links differ from transaction tracking links:
+
 * Address Explorer: `https://www.blockchain.com/explorer/addresses/btc/<address>`
 * Transaction Explorer: `https://www.blockchain.com/explorer/transactions/btc/<txid>`
 
