@@ -23,7 +23,7 @@ theme:
   icon:
     tag:
       default: fontawesome/solid/computer
-      reverse: simple/assemblyscript
+      reverse: material/bug
       pwn: fontawesome/solid/square-binary
       forensics: simple/searxng
       crypto: material/math-integral
@@ -34,6 +34,10 @@ theme:
       osint: material/map
       ai: fontawesome/brands/openai
       hardware: simple/opensourcehardware
+      log: octicons/log-16
+      inci: material/shield-alert
+      soc: material/monitor-dashboard
+      priv: material/account-key
 
 plugins:
   - search
@@ -52,4 +56,7 @@ extra:
     OSINT: osint
     AI: ai
     Hardware: hardware
-
+    Log Analysis: log
+    Incident Response: inci
+    SOC: soc
+    Privilege Escalation: priv
