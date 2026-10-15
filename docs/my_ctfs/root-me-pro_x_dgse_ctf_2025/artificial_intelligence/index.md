@@ -1,5 +1,5 @@
 ---
-title: Mission 1: Artificial Intelligence
+title: Mission 1 - Artificial Intelligence
 tags: 
     - AI
 ---
