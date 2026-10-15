@@ -19,6 +19,7 @@ We had a website with 6 different challenges to complete :
 ![home.png](home.png)
 
 The categories were :
+
 * AI
 * SOC
 * Forensics

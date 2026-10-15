@@ -19,9 +19,10 @@ A CTF I did From Saturday 17th of October at 09:00 UTC to Sunday 18th of October
 
 * Website: [https://ctf.securinets.tn/](https://ctf.securinets.tn/)
 
-
+---
 
 **Categories**
+
 - Web : SQL injection, auth bypasses, SSRF, SSTI and framework-specific bugs.
 - Pwn : Memory corruption from stack to heap, ROP chains and shellcoding.
 - Reverse : Static and dynamic analysis of binaries, custom VMs and obfuscated code.
@@ -31,9 +32,10 @@ A CTF I did From Saturday 17th of October at 09:00 UTC to Sunday 18th of October
 - Mobile : Android and iOS applications, Frida hooking and mobile-specific bugs.
 - Hardware : Firmware analysis, embedded devices, UART and JTAG debugging.
 
-
+---
 
 **Rules**
+
 * Solve challenges, submit flags, earn points. Categories are independent.
 * Scoring is dynamic: challenges lose value as more teams solve them.
 * No attacking the competition platform or its infrastructure.
