@@ -4,10 +4,8 @@ title: Portfolio
 
 # Dylan Baudin
 
-<p align="center" markdown>
-  <strong>Master's Degree Candidate in Network & System Security (SSIR) @ UPSSITECH</strong><br>
-  :location: Toulouse, France &nbsp;|&nbsp; :email: <a href="mailto:[REDACTED]">[REDACTED]</a> &nbsp;|&nbsp; :phone: (+33) [REDACTED]
-</p>
+**Master's Degree Candidate in Network & System Security (SSIR) @ UPSSITECH**  
+Toulouse, France | [REDACTED] | (+33) [REDACTED]
 
 ---
 
@@ -16,55 +14,17 @@ title: Portfolio
 
 ---
 
-## 🔗 Profiles & Platforms
+## Profiles & Platforms
 
-<div class="grid cards" markdown>
-
--   :simple-linkedin:{ .lg .middle } **LinkedIn**
-
-    ---
-
-    Professional network, experience, and updates.
-
-    [:octicons-arrow-right-24: Connect on LinkedIn](https://www.linkedin.com/in/dylan-baudin/){ .md-button .md-button--primary }
-
--   :simple-github:{ .lg .middle } **GitHub**
-
-    ---
-
-    Source code, security tools, and automation scripts.
-
-    [:octicons-arrow-right-24: Explore GitHub](https://github.com/){ .md-button }
-
--   :simple-rootme:{ .lg .middle } **Root-Me**
-
-    ---
-
-    **Top 1.5%** &nbsp;|&nbsp; **149+** Challenges Solved
-
-    [:octicons-arrow-right-24: View Root-Me Profile](https://www.root-me.org/){ .md-button }
-
--   :simple-tryhackme:{ .lg .middle } **TryHackMe**
-
-    ---
-
-    **Top 6%** &nbsp;|&nbsp; **75+** Rooms & Labs Completed
-
-    [:octicons-arrow-right-24: View TryHackMe Profile](https://tryhackme.com/){ .md-button }
-
--   :simple-hackthebox:{ .lg .middle } **HackTheBox**
-
-    ---
-
-    Lab environments and ongoing HTB progression.
-
-    [:octicons-arrow-right-24: View HTB Profile](https://www.hackthebox.com/){ .md-button }
-
-</div>
+* **LinkedIn:** [Dylan Baudin](https://www.linkedin.com/in/dylan-baudin/)
+* **GitHub:** [Profile](https://github.com/)
+* **Root-Me:** [Top 1.5% - 149+ Solved](https://www.root-me.org/)
+* **TryHackMe:** [Top 6% - 75+ Rooms Completed](https://tryhackme.com/)
+* **HackTheBox:** [Profile](https://www.hackthebox.com/)
 
 ---
 
-## 🛠️ Technical Expertise
+## Technical Expertise
 
 === "Offensive Security & CTFs"
     * **Web Penetration Testing:** OWASP Top 10 exploitation, Burp Suite, OWASP ZAP, XXE, SQLi, XSS, SSRF.
@@ -85,50 +45,33 @@ title: Portfolio
 
 ---
 
-## 💼 Professional Experience
+## Professional Experience
 
-### **IT Systems Manager (RSI) & Project Manager**
-* **Upsilon Junior-Entreprise** | *Toulouse, France* *(05/2025 – Present)*
-    * **Security & Web Hardening:** Implemented rate limiting, Anti-DoS/Spam IP filtering, and secured web services inside rootless Podman containers.
-    * **Infrastructure:** Managed Proxmox cluster, OPNsense firewalls, and Active Directory domain services.
-    * **DevOps & Workflows:** Set up Git/GitHub version control and automated backup solutions via Bash.
-    * **Technical Team Leadership:** Coordinated technical teams on development and infrastructure projects.
+### IT Systems Manager (RSI) & Project Manager
+**Upsilon Junior-Entreprise** | *Toulouse, France* *(05/2025 – Present)*
 
-### **IT Specialist & Project Manager / Pentester**
-* **Upsilon Junior-Entreprise** | *Toulouse, France* *(02/2025 – 05/2025)*
-    * Conducted web application penetration testing and comprehensive log analysis.
-    * Developed an automated USB drive security payload for email-based alert generation.
+* **Security & Web Hardening:** Implemented rate limiting, Anti-DoS/Spam IP filtering, and secured web services inside rootless Podman containers.
+* **Infrastructure:** Managed Proxmox cluster, OPNsense firewalls, and Active Directory domain services.
+* **DevOps & Workflows:** Set up Git/GitHub version control and automated backup solutions via Bash.
+* **Technical Team Leadership:** Coordinated technical teams on development and infrastructure projects.
 
----
+### IT Specialist & Project Manager / Pentester
+**Upsilon Junior-Entreprise** | *Toulouse, France* *(02/2025 – 05/2025)*
 
-## 🔬 Personal Projects & Home Lab
-
-<div class="grid cards" markdown>
-
--   :material-server-network: **Self-Hosted Linux & Network Lab**
-
-    ---
-
-    Built a full custom home network featuring VLAN isolation, Alpine Linux router, managed switch, custom Wi-Fi Access Point, WireGuard VPN, rootless Podman / Incus containers, and Nftables stateful firewall rules.
-
--   :material-usb-flash-drive: **Hardware Security & Automation**
-
-    ---
-
-    Developed security payloads using Raspberry Pi Rubber Ducky (DuckyScript & PowerShell automation) alongside custom 3D enclosure modeling.
-
--   :material-certificate: **Certifications & Continuous Learning**
-
-    ---
-
-    * **ANSSI MOOC:** Certified SecNumacadémie.
-    * **TryHackMe:** Security Analyst Level 1 Pathway Completed.
-
-</div>
+* Conducted web application penetration testing and comprehensive log analysis.
+* Developed an automated USB drive security payload for email-based alert generation.
 
 ---
 
-## 🎓 Education
+## Personal Projects & Home Lab
+
+* **Self-Hosted Linux & Network Lab:** Built a full custom home network featuring VLAN isolation, Alpine Linux router, managed switch, custom Wi-Fi Access Point, WireGuard VPN, rootless Podman / Incus containers, and Nftables stateful firewall rules.
+* **Hardware Security & Automation:** Developed security payloads using Raspberry Pi Rubber Ducky (DuckyScript & PowerShell automation) alongside custom 3D enclosure modeling.
+* **Certifications & Continuous Learning:** ANSSI MOOC (SecNumacadémie certified) and TryHackMe Security Analyst Level 1 Pathway.
+
+---
+
+## Education
 
 * **Master's Degree in Networks & Telecommunications (SSIR - Network & System Security)**  
   *UPSSITECH – Université de Toulouse* *(2025 – 2027)*  
@@ -141,4 +84,3 @@ title: Portfolio
 * **Bachelor's Degree in Computer Science**  
   *Université de Toulouse* *(2022 – 2024)*  
   *Focus:* C, Java, Python, ARM Assembly, Version Control (Git/GitHub).
-
