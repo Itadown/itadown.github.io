@@ -17,9 +17,9 @@ Toulouse, France
 ## Profiles & Platforms
 
 * **LinkedIn:** [Dylan Baudin](https://www.linkedin.com/in/dylan-baudin/)
-* **GitHub:** [Profile](https://github.com/)
-* **Root-Me:** [Top 1.5% - 149+ Solved](https://www.root-me.org/)
-* **TryHackMe:** [Top 6% - 75+ Rooms Completed](https://tryhackme.com/)
+* **GitHub:** [Profile](https://github.com/Itadown)
+* **Root-Me:** [Top 1.5% - 149 Solved](https://www.root-me.org/DragonnsX-290786)
+* **TryHackMe:** [Top 6% - 75 Rooms Completed](https://tryhackme.com/p/Itadown)
 * **HackTheBox:** [Profile](https://www.hackthebox.com/)
 
 ---
