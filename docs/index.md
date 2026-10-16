@@ -4,8 +4,8 @@ title: Portfolio
 
 # Dylan Baudin
 
-**Master's Degree Candidate in Network & System Security (SSIR) at UPSSITECH**  
-Toulouse, France
+**Master's Student in Networks & Telecommunications - Information Systems & Network Security (SSIR)**
+Université de Toulouse - UPSSITECH | Toulouse, France
 
 ---
 
