@@ -4,13 +4,13 @@ title: Portfolio
 
 # Dylan Baudin
 
-**Master's Degree Candidate in Network & System Security (SSIR) @ UPSSITECH**  
+**Master's Degree Candidate in Network & System Security (SSIR) at UPSSITECH**  
 Toulouse, France
 
 ---
 
 ## Internship Search
-    I am currently seeking a **4 to 6-month internship** in **Cybersecurity (Penetration Testing, Red Teaming, SOC/DFIR, or System & Infrastructure Security)** starting in February 2027 to apply my technical skills in a challenging professional environment.
+I am currently seeking a **4 to 6-month internship** in **Cybersecurity (Penetration Testing, Red Teaming, SOC/DFIR, or System & Infrastructure Security)** starting in February 2027 to apply my technical skills in a challenging professional environment.
 
 ---
 
@@ -30,13 +30,13 @@ Offensive Security & CTFs
 * **Web Penetration Testing:** OWASP Top 10 exploitation, Burp Suite, OWASP ZAP, XXE, SQLi, XSS, SSRF.
 * **Infrastructure & Active Directory:** Network mapping with Nmap, privilege escalation (Linux & Windows), AD enumeration and attack vectors.
 * **Reverse Engineering & Binary Exploitation:** Static and dynamic analysis (x86 / x64 / ARM) using Ghidra and GDB, basic buffer overflow exploitation.
-* **CTF Competitions:** Active participant in **404CTF**, **Hackfinity**, **DGSE x Root-Me**, **ByteMe CTF** across Web, Reverse, Pwn, Crypto, RAM Forensics, and SOC challenges.
+* **CTF Competitions:** Active participant in **404CTF**, **Hackfinity**, **DGSE x Root-Me**, **ByteMe CTF** across Web, Reverse, Pwn, Crypto, RAM Forensics, SOC and OSINT challenges.
 
 Infrastructure, Systems & DevOps
 
 * **System Administration:** Advanced Linux, Active Directory management, PowerShell, Incus containerization.
 * **Virtualization & Cloud:** Proxmox VE, OPNsense firewall configuration, rootless Podman containers.
-* **Network Engineering:** VLAN segmentation, Alpine Linux routing, Wi-Fi AP setup, WireGuard VPN, Nftables filtering, BGPv4, OSPF.
+* **Network Engineering:** VLAN segmentation, Routing rules, Wi-Fi AP setup, Switch setup, WireGuard VPN, Nftables filtering, BGPv4, OSPF.
 * **DevOps & Automation:** Version control with Git/GitHub/GitLab, Bash scripting, automated backup workflows.
 
 Forensics & Incident Response
@@ -52,10 +52,20 @@ Forensics & Incident Response
 ### IT Systems Manager (RSI) & Project Manager
 **Upsilon Junior-Entreprise** | *Toulouse, France* *(05/2025 – Present)*
 
-* **Security & Web Hardening:** Implemented rate limiting, Anti-DoS/Spam IP filtering, and secured web services inside rootless Podman containers.
-* **Infrastructure:** Managed Proxmox cluster, OPNsense firewalls, and Active Directory domain services.
-* **DevOps & Workflows:** Set up Git/GitHub version control and automated backup solutions via Bash.
-* **Technical Team Leadership:** Coordinated technical teams on development and infrastructure projects.
+* **Container Hardening & Minimalist Architecture:**
+    * Designed two separate, fully isolated Podman containers built *from scratch* (one containing strictly the Nginx binary, the other strictly the PHP binary).
+    * Enforced strict inter-container firewall rules to restrict network communication between Nginx and PHP services to the absolute bare minimum.
+* **Web Security & Traffic Control:**
+    * Implemented reverse-proxy rate limiting, Anti-DoS/Spam filtering, and restricted network access rules to mitigate automated attacks and spam.
+* **Web Development & Transition:**
+    * Managed legacy WordPress Podman container infrastructure and engineered a custom, lightweight PHP/HTML/CSS/JS web application.
+    * Integrated a custom domain-specific language (DSL) parser to allow non-technical users to easily update site content.
+* **Infrastructure & Automation:**
+    * Maintained Proxmox VE virtualization cluster, OPNsense firewalls, managed switches, Wi-Fi Acces Point and Active Directory domain services.
+    * Automated backup workflows and managed version control using Bash scripting and Git/GitHub.
+* **Technical Leadership:**
+    * Coordinated technical development and infrastructure teams on internal projects.
+
 
 ### IT Specialist & Project Manager / Pentester
 **Upsilon Junior-Entreprise** | *Toulouse, France* *(02/2025 – 05/2025)*
