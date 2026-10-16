@@ -9,39 +9,41 @@ Toulouse, France
 
 ---
 
-!!! info "Internship Search"
-    I am currently seeking a **4 to 6-month internship** in **Cybersecurity (Penetration Testing, Red Teaming, SOC/DFIR, or System & Infrastructure Security)** starting in 2025/2026 to apply my technical skills in a challenging professional environment.
+## Internship Search
+    I am currently seeking a **4 to 6-month internship** in **Cybersecurity (Penetration Testing, Red Teaming, SOC/DFIR, or System & Infrastructure Security)** starting in February 2027 to apply my technical skills in a challenging professional environment.
 
 ---
 
 ## Profiles & Platforms
 
 * **LinkedIn:** [Dylan Baudin](https://www.linkedin.com/in/dylan-baudin/)
-* **GitHub:** [Profile](https://github.com/Itadown)
+* **GitHub:** [My GitHub](https://github.com/Itadown)
 * **Root-Me:** [Top 1.5% - 149 Solved](https://www.root-me.org/DragonnsX-290786)
 * **TryHackMe:** [Top 6% - 75 Rooms Completed](https://tryhackme.com/p/Itadown)
-* **HackTheBox:** [Profile](https://www.hackthebox.com/)
 
 ---
 
 ## Technical Expertise
 
-"Offensive Security & CTFs"
-    * **Web Penetration Testing:** OWASP Top 10 exploitation, Burp Suite, OWASP ZAP, XXE, SQLi, XSS, SSRF.
-    * **Infrastructure & Active Directory:** Network mapping with Nmap, privilege escalation (Linux & Windows), AD enumeration and attack vectors.
-    * **Reverse Engineering & Binary Exploitation:** Static and dynamic analysis (x86 / x64 / ARM) using Ghidra and GDB, basic buffer overflow exploitation.
-    * **CTF Competitions:** Active participant in **404CTF**, **Hackfinity**, **DGSE x Root-Me**, **ByteMe CTF** across Web, Reverse, Pwn, Crypto, RAM Forensics, and SOC challenges.
+Offensive Security & CTFs
 
-"Infrastructure, Systems & DevOps"
-    * **System Administration:** Advanced Linux, Active Directory management, PowerShell, Incus containerization.
-    * **Virtualization & Cloud:** Proxmox VE, OPNsense firewall configuration, rootless Podman containers.
-    * **Network Engineering:** VLAN segmentation, Alpine Linux routing, Wi-Fi AP setup, WireGuard VPN, Nftables filtering, BGPv4, OSPF.
-    * **DevOps & Automation:** Version control with Git/GitHub/GitLab, Bash scripting, automated backup workflows.
+* **Web Penetration Testing:** OWASP Top 10 exploitation, Burp Suite, OWASP ZAP, XXE, SQLi, XSS, SSRF.
+* **Infrastructure & Active Directory:** Network mapping with Nmap, privilege escalation (Linux & Windows), AD enumeration and attack vectors.
+* **Reverse Engineering & Binary Exploitation:** Static and dynamic analysis (x86 / x64 / ARM) using Ghidra and GDB, basic buffer overflow exploitation.
+* **CTF Competitions:** Active participant in **404CTF**, **Hackfinity**, **DGSE x Root-Me**, **ByteMe CTF** across Web, Reverse, Pwn, Crypto, RAM Forensics, and SOC challenges.
 
-"Forensics & Incident Response"
-    * **Network Analysis:** Deep packet inspection and traffic investigation using Wireshark and `tshark`.
-    * **Log & Audit Analysis:** System audit logging (`auditd`), Web server access logs analysis, intrusion tracking.
-    * **RAM Analysis:** Memory extraction and memory forensics fundamentals.
+Infrastructure, Systems & DevOps
+
+* **System Administration:** Advanced Linux, Active Directory management, PowerShell, Incus containerization.
+* **Virtualization & Cloud:** Proxmox VE, OPNsense firewall configuration, rootless Podman containers.
+* **Network Engineering:** VLAN segmentation, Alpine Linux routing, Wi-Fi AP setup, WireGuard VPN, Nftables filtering, BGPv4, OSPF.
+* **DevOps & Automation:** Version control with Git/GitHub/GitLab, Bash scripting, automated backup workflows.
+
+Forensics & Incident Response
+
+* **Network Analysis:** Deep packet inspection and traffic investigation using Wireshark and `tshark`.
+* **Log & Audit Analysis:** System audit logging (`auditd`), Web server access logs analysis, intrusion tracking.
+* **RAM Analysis:** Memory extraction and memory forensics fundamentals.
 
 ---
 

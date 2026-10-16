@@ -32,7 +32,7 @@ theme:
       network: material/web
       stegano: material/image
       osint: material/map
-      ai: fontawesome/brands/openai
+      ai: material/robot-outline
       hardware: simple/opensourcehardware
       log: octicons/log-16
       inci: material/shield-alert
