@@ -4,6 +4,8 @@ title: HI Cyber Con CTF 2026
 
 # HI Cyber Con CTF 2026
 
+A CTF I did from Friday 30 of October to Sunday 01 of November.
+
 HI Cyber Con 2026 CTF is an international 48-hour Jeopardy-style Capture The Flag competition organized by Hidden Investigations.
 
 The competition features 70+ challenges covering web, forensics, steganography, network, crypto, binary exploitation, reverse engineering, AI/LLM, hardware, blockchain, OSINT, and misc.
