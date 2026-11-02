@@ -22,6 +22,6 @@ Flag Format: `hiCTF{rahim_ahmed_meow}`
 
 ## Exploit
 
-Just had to search with google image and found it.
+There is an image in the zip file we got. Just had to search with google image and I found the full name of the person.
 
 `hiCTF{jihan_mohin_dimack}`
