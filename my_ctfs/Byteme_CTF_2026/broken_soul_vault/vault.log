@@ -1,0 +1,7 @@
+OPEN vault
+AUTH keeper
+READ /soul/fragment
+ERROR checksum mismatch
+RECOVER block=17
+RECOVER block=18
+NOTE corrupted metadata follows
