@@ -12,6 +12,8 @@ Vardanne Command's operations console signs each session with a JWT (HS256). You
 
 Flag format: **`CSCTF{...}`**
 
+File : [/public/brand.txt](./brand.txt) 
+
 ---
 
 I'm used to JWT tokens on BurpSuite so I opened it and started intercepting a request to send it to the repeater. I then generated a token by doing a `GET` on `/token`, just to be used to `curl` a little bit I wanted to do it with it too so I'll do some curl command with the BurpSuite things I putted on :
