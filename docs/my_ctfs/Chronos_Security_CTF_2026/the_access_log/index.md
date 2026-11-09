@@ -12,6 +12,8 @@ The portal, its units and every host in the log are fictional. Attachment: `acce
 
 Flag format: **`CSCTF{...}`**
 
+File : 
+
 ---
 
 After opening the file we can see a lot of `GET` request like this one :

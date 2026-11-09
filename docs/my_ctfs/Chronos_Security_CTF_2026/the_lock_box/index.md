@@ -10,6 +10,8 @@ Operation Dawn, annex entry 06. The Ash gate guards run a small field unit at th
 
 Flag format: `CSCTF{...}`
 
+File : [lockbox](./lockbox)
+
 ---
 
 Running the binary with no arguments :
