@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<w:document xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main">
+  <w:body>
+    <w:p><w:r><w:t>Shift summary clean. Nothing unusual at the desk.</w:t></w:r></w:p>
+    <w:p>
+      <w:del w:id="1" w:author="M. Keene" w:date="2026-04-03T02:14:00Z"><w:r><w:delText>The key locker was checked at the start of shift.</w:delText></w:r></w:del>
+      <w:ins w:id="2" w:author="M. Keene" w:date="2026-04-03T02:14:11Z"><w:r><w:t>7a6a7a6d7f4251505d664a525c4e664b5c5d5550575c44</w:t></w:r></w:ins>
+    </w:p>
+  </w:body>
+</w:document>

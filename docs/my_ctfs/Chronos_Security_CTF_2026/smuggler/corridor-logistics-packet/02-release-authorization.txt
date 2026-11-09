@@ -1,0 +1,8 @@
+Release authorization
+=====================
+This packet is released under single-use authorization. Quote the
+authorization code below when you acknowledge receipt to the continuity desk.
+
+  Authorization code: CSCTF{mGGHVHWC54bNEwxYpcokXB09}
+
+Handling: return or destroy the packet after the movement window closes.
