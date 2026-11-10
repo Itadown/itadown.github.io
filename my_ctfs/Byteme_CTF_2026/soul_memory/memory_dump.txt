@@ -1,0 +1,7 @@
+PROCESS MEMORY EXTRACT
+pid=4041
+module=soul-cache
+user=keeper
+cache_key=MEMORY_7
+vault_hint=look_after_cache_key
+data=OWASP{s0ul_m3m0ry_n3v3r_d13s}
