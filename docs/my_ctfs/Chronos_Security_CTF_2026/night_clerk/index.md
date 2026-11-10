@@ -12,6 +12,8 @@ Recover the message from the image. Other exhibits it mentions are not provided 
 
 Submit the recovered `CSCTF{...}` value.
 
+File : [terminal.dd](./terminal.dd)
+
 ---
 
 I started by analysing the file with `strings` to find that it is a NTFS partition with some data on it. I then tried to use `fls` to find some files :

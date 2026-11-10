@@ -12,7 +12,7 @@ The portal, its units and every host in the log are fictional. Attachment: `acce
 
 Flag format: **`CSCTF{...}`**
 
-File : 
+File : [access.log](./access.log)
 
 ---
 

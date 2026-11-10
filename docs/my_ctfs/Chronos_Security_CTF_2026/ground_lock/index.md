@@ -12,7 +12,10 @@ Recover that code. This is a constructed software case: the attachment is a Linu
 
 Submit `CSCTF{<service-code>}` with the exact 24 code bytes and case.
 
+File : [fcunlock](./fcunlock)
+
 ---
+
 First I opened the binary in `Ghidra` to find an interesting string in `Defined Strings` : 
 * `CSCTF{%.*s}`
 

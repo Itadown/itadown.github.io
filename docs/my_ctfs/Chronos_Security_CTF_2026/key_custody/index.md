@@ -12,7 +12,7 @@ Vardanne Command's operations console signs each session with a JWT (HS256). You
 
 Flag format: **`CSCTF{...}`**
 
-File : [/public/brand.txt](./brand.txt) 
+File obtained : [/public/brand.txt](./brand.txt) 
 
 ---
 
